@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar.tsx'
 import ProfileCard from './components/ProfileCard.tsx'
 import Footer from './components/Footer.tsx'
+import Counter from './components/Counter.tsx'
 import './App.css'
 
 type student = {
@@ -42,6 +43,8 @@ function App() {
           )
         })
       }
+
+      <Counter />
 
       {/* <ProfileCard email="johndoe@me.com" />
       <ProfileCard name="Alice Doe" email="alice@me.com" age={30} />
