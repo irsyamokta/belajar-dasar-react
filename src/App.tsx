@@ -3,6 +3,7 @@ import ProfileCard from './components/ProfileCard.tsx'
 import Footer from './components/Footer.tsx'
 import Counter from './components/Counter.tsx'
 import './App.css'
+import LikeToggle from './components/LikeToggle.tsx'
 
 type student = {
   id: number,
@@ -45,6 +46,7 @@ function App() {
       }
 
       <Counter />
+      <LikeToggle />
 
       {/* <ProfileCard email="johndoe@me.com" />
       <ProfileCard name="Alice Doe" email="alice@me.com" age={30} />
