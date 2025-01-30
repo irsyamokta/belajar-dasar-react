@@ -8,9 +8,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <ProfileCard />
-      <ProfileCard />
-      <ProfileCard />
+      <ProfileCard email="johndoe@me.com" />
+      <ProfileCard name="Alice Doe" email="alice@me.com" age={30} />
+      <ProfileCard name="Kevin Doe" email="kevin@me.com" age={25} />
       <Footer />
     </>
   )
