@@ -7,6 +7,7 @@ import About from './pages/AboutPage.tsx'
 import NotFound from './pages/NotFoundPage.tsx'
 import ProductDetail from './pages/ProductDetailPage.tsx'
 import ProductListPrice from './pages/ProductListPrice.tsx'
+import FormPage from './pages/FormPage.tsx'
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
 
         {/* Dynamic Route */}
         <Route path="/product/:slug" element={<ProductDetail />} />
-
+        <Route path="/form" element={<FormPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
