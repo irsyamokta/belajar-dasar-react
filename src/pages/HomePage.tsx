@@ -61,6 +61,11 @@ const Homepage = () => {
                             Product List
                         </button>
                     </Link>
+                    <Link to="/form">
+                        <button>
+                            Form
+                        </button>
+                    </Link>
                 </div>
             </div>
             <Counter />
